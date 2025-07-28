@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form onsubmit="alert('Saved your profile'); return false;">
+        <label>Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <label>Father Name:</label>
+        <input type="text" name="father"><br><br>
+
+        <label>DOB:</label>
+        <input type="date" name="dob"><br><br>
+
+        <label>Address:</label>
+        <textarea name="address"></textarea><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+
+        <label>Qualification:</label>
+        <select name="qualification">
+            <option>B.Tech</option>
+            <option>M.Tech</option>
+            <option>MBA</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobbies" value="Reading"> Reading
+        <input type="checkbox" name="hobbies" value="Music"> Music
+        <input type="checkbox" name="hobbies" value="Sports"> Sports<br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
